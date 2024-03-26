@@ -293,6 +293,10 @@ body {
     margin-bottom: 3vw;
   }
 
+  #section2 .elem img {
+    height: 70%;
+  }
+
   #section2 .elem .dets {
     height: 40px;
     border-radius: 50px;

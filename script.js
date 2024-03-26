@@ -44,7 +44,7 @@ function NavbarAnimation() {
     scrollTrigger: {
       trigger: "#section1",
       scroller: "#main",
-      start: "top 2px",
+      start: "top 0",
       end: "top -8%",
       scrub: 2,
     },
@@ -55,7 +55,7 @@ function NavbarAnimation() {
     scrollTrigger: {
       trigger: "#section1",
       scroller: "#main",
-      start: "top 2px",
+      start: "top 0",
       end: "top -8%",
       scrub: 2,
     },
