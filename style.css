@@ -13,7 +13,6 @@
   src: url(./ABCSocialMono-Regular.ttf);
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -106,7 +105,6 @@ body {
   padding-top: 20vh;
 }
 
-
 #section1 h1 {
   font-size: 15vw;
   text-transform: uppercase;
@@ -143,35 +141,45 @@ body {
 }
 
 #section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+#section2 #headingdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+#section2 #headingdiv #heading {
+  text-align: center;
+  font-size: 56px;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  font-family: Futura;
+}
+
+#section2 #headingdiv #paragraph {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 12px;
+    font-family: ABCSocialMono;
+}
+
+#section2 #productdiv {
   min-height: 100vh;
   width: 100%;
   position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 3vw 1vw;
   justify-content: space-between;
 }
 
-#section2 #headingdiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 3vw 0;
-}
-
-#section2 #headingdiv #heading{
-    font-family: Futura ;
-}
-
-#section2 #headingdiv #paragraph{
-    font-family: ABCSocialMono;
-}
-
-
-
-#section2 .elem {
+#section2 #productdiv .elem {
   height: 100%;
   width: 31%;
   /* background-color: red; */
@@ -182,14 +190,14 @@ body {
   justify-content: center;
 }
 
-#section2 .elem img {
+#section2 #productdiv .elem img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   scale: 1.1;
 }
 
-#section2 .elem .dets {
+#section2 #productdiv .elem .dets {
   height: 60px;
   border-radius: 50px;
   width: 70%;
@@ -300,7 +308,7 @@ body {
     transform: translate(-50%, -50%);
   }
 
-  #section2 {
+  #section2 #productdiv {
     min-height: 100vh;
     width: 100%;
     position: relative;
@@ -312,7 +320,7 @@ body {
     /* background-color: red; */
   }
 
-  #section2 .elem {
+  #section2 #productdiv .elem {
     height: 100vh;
     width: 100%;
     /* background-color: red; */
@@ -320,11 +328,11 @@ body {
     margin-bottom: 3vw;
   }
 
-  #section2 .elem img {
+  #section2 #productdiv .elem img {
     height: 70%;
   }
 
-  #section2 .elem .dets {
+  #section2 #productdiv .elem .dets {
     height: 40px;
     border-radius: 50px;
     width: 70%;
