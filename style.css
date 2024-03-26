@@ -148,8 +148,9 @@ body {
 #section2 #headingdiv {
   display: flex;
   flex-direction: column;
-  gap: 2.5;
-  padding: 8rem 0;
+  gap: 2.5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 #section2 #headingdiv #heading {
@@ -170,7 +171,8 @@ body {
   text-align: center;
   cursor: pointer;
 }
-#section2 #headingdiv #paragraph #p-border{
+
+#section2 #headingdiv #paragraph #pborder{
   padding-top: 2px;
   border-width: 1px;
   border-style: solid;

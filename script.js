@@ -46,7 +46,7 @@ function NavbarAnimation() {
       scroller: "#main",
       start: "top 0",
       end: "top -8%",
-      scrub: 2,
+      scrub: 1,
     },
   });
   gsap.to("#nav-part2 #links", {
@@ -57,7 +57,7 @@ function NavbarAnimation() {
       scroller: "#main",
       start: "top 0",
       end: "top -8%",
-      scrub: 2,
+      scrub: 1,
     },
   });
 }
