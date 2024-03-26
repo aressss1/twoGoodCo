@@ -44,7 +44,7 @@ function NavbarAnimation() {
     scrollTrigger: {
       trigger: "#section1",
       scroller: "#main",
-      start: "top 0",
+      start: "top 2px",
       end: "top -8%",
       scrub: 2,
     },
@@ -55,7 +55,7 @@ function NavbarAnimation() {
     scrollTrigger: {
       trigger: "#section1",
       scroller: "#main",
-      start: "top 0",
+      start: "top 2px",
       end: "top -8%",
       scrub: 2,
     },
@@ -83,7 +83,7 @@ function VideoMouseHoverEffect() {
   document.addEventListener("mousemove", function (dets) {
     gsap.to(playBtn, {
       left: dets.x - 70,
-      top: dets.y - 80,
+      top: dets.y ,
     });
   });
 }
