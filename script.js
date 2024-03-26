@@ -42,22 +42,22 @@ function NavbarAnimation() {
   gsap.to("#nav-part1 svg", {
     transform: "translateY(-100%)",
     scrollTrigger: {
-      trigger: "#page1",
+      trigger: "#section1",
       scroller: "#main",
       start: "top 0",
-      end: "top -5%",
-      scrub: true,
+      end: "top -8%",
+      scrub: 2,
     },
   });
   gsap.to("#nav-part2 #links", {
     transform: "translateY(-100%)",
     opacity: 0,
     scrollTrigger: {
-      trigger: "#page1",
+      trigger: "#section1",
       scroller: "#main",
       start: "top 0",
-      end: "top -5%",
-      scrub: true,
+      end: "top -8%",
+      scrub: 2,
     },
   });
 }
@@ -89,7 +89,7 @@ function VideoMouseHoverEffect() {
 }
 
 function HeroAnimation() {
-  gsap.from("#page1 h1", {
+  gsap.from("#section1 h1", {
     y: 100,
     opacity: 0,
     delay: 0.5,
@@ -97,7 +97,7 @@ function HeroAnimation() {
     stagger: 0.3,
   });
 
-  gsap.from("#page1 #video-container", {
+  gsap.from("#section1 #video-container", {
     scale: 0.9,
     opacity: 0,
     delay: 1.3,
