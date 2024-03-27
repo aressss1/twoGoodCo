@@ -1,16 +1,21 @@
 @font-face {
   font-family: Futura;
-  src: url(./Futura-Bold.ttf);
+  src: url(./font/Futura-Bold.ttf);
 }
 
 @font-face {
   font-family: Gilroy;
-  src: url(./Gilroy-Medium.ttf);
+  src: url(./font/Gilroy-Medium.ttf);
 }
 
 @font-face {
   font-family: ABCSocialMono;
-  src: url(./ABCSocialMono-Regular.ttf);
+  src: url(./font/ABCSocialMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url(./font/HelveticaNowText-Regular.ttf);
 }
 
 * {
@@ -37,7 +42,6 @@ body {
 
 /* NAVBAR */
 
-
 #nav {
   width: 100%;
   position: fixed;
@@ -45,6 +49,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   padding: 25px;
+  z-index: 9999;
 }
 
 #nav #nav-part2 {
@@ -100,8 +105,6 @@ body {
   transform: translate(-50%, -50%) scale(0);
 }
 
-
-
 /* SECTION-1  */
 
 #section1 {
@@ -140,7 +143,6 @@ body {
   object-fit: cover;
 }
 
-
 /* SECTION-2 */
 
 #section2 {
@@ -150,8 +152,9 @@ body {
 
 #section2 #headingdiv {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.25rem;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
@@ -176,14 +179,13 @@ body {
   width: max-content;
 }
 
-#section2 #headingdiv #paragraph #pborder{
+#section2 #headingdiv #paragraph #pborder {
   border-width: 1px;
   border-style: outset;
   border-color: black;
-  
 }
 
-#section2 #productscontainer{
+#section2 #productscontainer {
   display: flex;
   flex-direction: column;
   padding: 1vw 2vw;
@@ -195,15 +197,22 @@ body {
   flex-direction: column;
 }
 
-#section2 #productscontainer #prodcutsheadingdiv #productsheading  {
+#section2 #productscontainer #prodcutsheadingdiv #productsheading {
   display: flex;
   justify-content: space-between;
 }
 
-#section2 #productscontainer #prodcutsheadingdiv #productsheading h1  {
+#section2 #productscontainer #prodcutsheadingdiv #productsheading h1 {
   font-family: ABCSocialMono;
   font-size: 12px;
   text-transform: uppercase;
+  font-weight: normal;
+}
+
+#section2 #productscontainer #prodcutsheadingdiv #productsheadingbar {
+  border-width: 1px;
+  border-style: outset;
+  border-color: black;
 }
 
 #section2 #productdiv {
@@ -242,10 +251,60 @@ body {
   background-color: #edf3ff;
 }
 
-
 /* SECTION-3 */
 
 #section3 {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 9rem 1.75rem;
+}
+
+#section3 #section3headingdiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+#section3 #section3headingdiv #section3heading {
+  font-size: 56px;
+  text-transform: uppercase;
+  line-height: 1em;
+  max-width: 14em;
+  font-family: Futura;
+}
+
+#section3 #section3headingdiv #section3paragraphdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: left;
+}
+
+#section3 #section3headingdiv #section3paragraphdiv p {
+  font-family: Helvetica;
+  letter-spacing: 0.01em;
+  font-size: 16px;
+}
+
+#section3 #section3headingdiv #section3paragraphbtn {
+  font-family: ABCSocialMono;
+  font-weight: 500;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 12px;
+  width: max-content;
+}
+
+#section3 #section3headingdiv #section3paragraphbtn #section3paragraphbtnborder {
+  border-width: 1px;
+  border-style: outset;
+  border-color: black;
+}
+
+
+
+#allproducts {
   min-height: 120vh;
   width: 100%;
   position: relative;
@@ -270,7 +329,7 @@ body {
 
 @media (max-width: 600px) {
   /* RESPONSIVE-NAVBAR */
-  
+
   #nav {
     width: 100%;
     position: fixed;
@@ -348,7 +407,6 @@ body {
 
   /* RESPONSIVE SECTION-2 */
 
-
   #section2 #productdiv {
     min-height: 100vh;
     width: 100%;
@@ -384,7 +442,7 @@ body {
 
   /* RESPONSIVE SECTION-3 */
 
-  #section3 {
+  #allproducts {
     min-height: 120vh;
     width: 100%;
     position: relative;
