@@ -63,7 +63,7 @@ function NavbarAnimation() {
 }
 
 function HeroAnimation() {
-  gsap.from("#section1 #heading", {
+  gsap.from("#section1 #mainheading", {
     y: 100,
     opacity: 0,
     delay: 0.5,
