@@ -62,34 +62,8 @@ function NavbarAnimation() {
   });
 }
 
-function VideoMouseHoverEffect() {
-  var videoCon = document.querySelector("#video-container");
-  var playBtn = document.querySelector("#play");
-
-  videoCon.addEventListener("mouseenter", function () {
-    gsap.to(playBtn, {
-      scale: 1,
-      opacity: 1,
-    });
-  });
-
-  videoCon.addEventListener("mouseleave", function () {
-    gsap.to(playBtn, {
-      scale: 0,
-      opacity: 0,
-    });
-  });
-
-  document.addEventListener("mousemove", function (dets) {
-    gsap.to(playBtn, {
-      left: dets.x - 70,
-      top: dets.y ,
-    });
-  });
-}
-
 function HeroAnimation() {
-  gsap.from("#section1 h1", {
+  gsap.from("#section1 #mainheading", {
     y: 100,
     opacity: 0,
     delay: 0.5,
@@ -97,7 +71,7 @@ function HeroAnimation() {
     stagger: 0.3,
   });
 
-  gsap.from("#section1 #video-container", {
+  gsap.from("#section1 #image-container", {
     scale: 0.9,
     opacity: 0,
     delay: 1.3,
@@ -130,8 +104,6 @@ function cursorHover() {
 LocomotiveWithScrollTrigger();
 
 NavbarAnimation()
-
-VideoMouseHoverEffect();
 
 HeroAnimation();
 
