@@ -293,7 +293,7 @@ body {
 
   #section1 #mainheadingdiv {
     display: flex;
-    flex-direction: row;
+    gap: 4rem;
   }
 /* 
   #section1 #mainheadingdiv #mainheading {

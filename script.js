@@ -1,3 +1,10 @@
+const scrollbarElement = document.querySelector(".c-scrollbar")
+
+if(scrollbarElement) {
+  scrollbarElement.style.zIndex="99999"
+}
+
+
 function LocomotiveWithScrollTrigger() {
   gsap.registerPlugin(ScrollTrigger);
 
