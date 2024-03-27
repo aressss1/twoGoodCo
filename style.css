@@ -286,7 +286,7 @@ body {
   font-family: Helvetica;
   letter-spacing: 0.01em;
   font-size: 16px;
-  letter-spacing: 1.6em;
+  line-height: 1.6em;
 }
 
 #section3 #section3headingdiv #section3paragraphbtn {
@@ -315,11 +315,11 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 #section3 #allproducts .child {
-  height: 70vh;
-  width: 38vw;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -329,7 +329,9 @@ body {
 }
 
 #section3 #allproducts .child img {
-  height: 100%;
+  height: 80vh;
+  width: 40vw;
+  object-fit: cover;
 }
 
 #section3 #allproducts .child #childdescription{
@@ -347,6 +349,7 @@ body {
   line-height: 1.1;
   text-align: center;
   font-family: Helvetica ;
+  font-weight: normal;
 }
 
 #section3 #allproducts .child #childdescription p{
