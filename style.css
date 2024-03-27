@@ -362,17 +362,21 @@ body {
 #section4 {
   display: flex;
   padding: 4rem 1.75rem;
+  gap: 8rem;
 }
 
 #section4 #section4headingdiv {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
+  width: 26%;
 }
 
 #section4 #section4headingdiv h1 {
   font-family: Futura;
   font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 #section4 #section4headingdiv p {
@@ -409,6 +413,8 @@ body {
   object-fit: cover;
 }
 
+
+/* FOOTER */
 
 @media (max-width: 600px) {
   /* RESPONSIVE-NAVBAR */
