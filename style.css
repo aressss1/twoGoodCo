@@ -35,6 +35,9 @@ body {
   background-color: #f7f7f7;
 }
 
+/* NAVBAR */
+
+
 #nav {
   width: 100%;
   position: fixed;
@@ -97,6 +100,10 @@ body {
   transform: translate(-50%, -50%) scale(0);
 }
 
+
+
+/* SECTION-1  */
+
 #section1 {
   min-height: 100vh;
   /* background-color: aqua; */
@@ -113,6 +120,7 @@ body {
   line-height: 14vw;
   letter-spacing: -8px;
 }
+
 #section1 #mainheadingdiv {
   display: flex;
   gap: 4rem;
@@ -133,6 +141,8 @@ body {
 }
 
 
+/* SECTION-2 */
+
 #section2 {
   display: flex;
   flex-direction: column;
@@ -141,7 +151,7 @@ body {
 #section2 #headingdiv {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 2rem;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
@@ -163,14 +173,37 @@ body {
   font-family: ABCSocialMono;
   text-align: center;
   cursor: pointer;
+  width: max-content;
 }
 
 #section2 #headingdiv #paragraph #pborder{
-  padding-top: 2px;
   border-width: 1px;
-  border-style: solid;
+  border-style: outset;
   border-color: black;
   
+}
+
+#section2 #productscontainer{
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 2vw;
+  gap: 2rem;
+}
+
+#section2 #productscontainer #prodcutsheadingdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+#section2 #productscontainer #prodcutsheadingdiv #productsheading  {
+  display: flex;
+  justify-content: space-between;
+}
+
+#section2 #productscontainer #prodcutsheadingdiv #productsheading h1  {
+  font-family: ABCSocialMono;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 #section2 #productdiv {
@@ -178,14 +211,13 @@ body {
   width: 100%;
   position: relative;
   display: flex;
+  gap: 1rem;
   align-items: center;
-  padding: 3vw 1vw;
-  justify-content: space-between;
 }
 
 #section2 #productdiv .elem {
   height: 100%;
-  width: 31%;
+  width: 33%;
   /* background-color: red; */
   overflow: hidden;
   position: relative;
@@ -202,13 +234,16 @@ body {
 }
 
 #section2 #productdiv .elem .dets {
-  height: 60px;
+  height: 44px;
   border-radius: 50px;
   width: 70%;
   position: absolute;
   z-index: 9;
-  background-color: rgb(229, 156, 186);
+  background-color: #edf3ff;
 }
+
+
+/* SECTION-3 */
 
 #section3 {
   min-height: 120vh;
@@ -234,6 +269,8 @@ body {
 }
 
 @media (max-width: 600px) {
+  /* RESPONSIVE-NAVBAR */
+  
   #nav {
     width: 100%;
     position: fixed;
@@ -267,6 +304,7 @@ body {
     height: 67px;
     width: 80px;
   }
+
   #nav #twogoodlogo {
     height: 40px;
     margin-left: -20px;
@@ -284,6 +322,8 @@ body {
     font-weight: 100;
   }
 
+  /* RESPONSIVE SECTION-1 */
+
   #section1 {
     min-height: 70vh;
     width: 100%;
@@ -300,16 +340,14 @@ body {
     display: flex;
     gap: 4rem;
   }
-/* 
-  #section1 #mainheadingdiv #mainheading {
-    font-size: 15vw;
-    letter-spacing: -3px;
-  } */
 
   #image-container {
     /* height: 25vh; */
     margin-top: 3vw;
   }
+
+  /* RESPONSIVE SECTION-2 */
+
 
   #section2 #productdiv {
     min-height: 100vh;
@@ -343,6 +381,8 @@ body {
     z-index: 9;
     background-color: rgb(229, 156, 186);
   }
+
+  /* RESPONSIVE SECTION-3 */
 
   #section3 {
     min-height: 120vh;
