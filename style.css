@@ -257,7 +257,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  padding: 9rem 1.75rem;
+  padding: 4rem 1.75rem;
 }
 
 #section3 #section3headingdiv {
@@ -269,7 +269,7 @@ body {
   font-size: 56px;
   text-transform: uppercase;
   line-height: 1em;
-  max-width: 14em;
+  width: 25em;
   font-family: Futura;
 }
 
@@ -278,18 +278,20 @@ body {
   flex-direction: column;
   gap: 3rem;
   text-align: left;
+  width: 47%;
+  padding-right: 8%;
 }
 
 #section3 #section3headingdiv #section3paragraphdiv p {
   font-family: Helvetica;
   letter-spacing: 0.01em;
   font-size: 16px;
+  letter-spacing: 1.6em;
 }
 
 #section3 #section3headingdiv #section3paragraphbtn {
   font-family: ABCSocialMono;
   font-weight: 500;
-  padding-bottom: 8px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 12px;
@@ -297,14 +299,14 @@ body {
 }
 
 #section3 #section3headingdiv #section3paragraphbtn #section3paragraphbtnborder {
+  margin-top: 5px;
   border-width: 1px;
   border-style: outset;
   border-color: black;
 }
 
 
-
-#allproducts {
+#section3 #allproducts {
   min-height: 120vh;
   width: 100%;
   position: relative;
@@ -312,20 +314,46 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 10rem;
 }
 
-.child {
-  height: 54vh;
+#section3 #allproducts .child {
+  height: 70vh;
   width: 38vw;
   position: relative;
   display: flex;
+  flex-direction: column;
+  gap: 5rem;
   align-items: center;
   justify-content: center;
 }
 
-.child img {
+#section3 #allproducts .child img {
   height: 100%;
 }
+
+#section3 #allproducts .child #childdescription{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#section3 #allproducts .child #childdescription h1{
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.1;
+  text-align: center;
+  font-family: Helvetica ;
+}
+
+#section3 #allproducts .child #childdescription p{
+  font-size: 0.625rem;
+  font-family: Helvetica ;
+}
+
 
 @media (max-width: 600px) {
   /* RESPONSIVE-NAVBAR */
