@@ -1,4 +1,4 @@
-document.querySelector(".c-scrollbar").style.zIndex="99999"
+
 
 function LocomotiveWithScrollTrigger() {
   gsap.registerPlugin(ScrollTrigger);

@@ -38,7 +38,6 @@ body {
 #nav {
   width: 100%;
   position: fixed;
-  z-index: 99;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -59,6 +58,7 @@ body {
 #nav-part1 {
   height: 82px;
   overflow: hidden;
+  z-index: 99;
 }
 
 #nav-part1 svg {
@@ -85,6 +85,7 @@ body {
   font-size: 18px;
   margin: 0 20px;
   font-weight: 100;
+  z-index: 99;
 }
 
 #cursor {
