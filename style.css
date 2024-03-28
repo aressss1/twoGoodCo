@@ -499,8 +499,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6rem;
-  padding-top: 4rem;
+  gap: 5rem;
+  padding-top: 7rem;
 }
 
 #footer #footerlast #link {
