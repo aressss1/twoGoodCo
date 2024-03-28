@@ -235,7 +235,6 @@ body {
 #section2 #productdiv .elem {
   height: 100%;
   width: 33%;
-  /* background-color: red; */
   overflow: hidden;
   position: relative;
   display: flex;
