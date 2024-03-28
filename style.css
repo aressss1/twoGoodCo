@@ -117,7 +117,7 @@ body {
   z-index: -1;
 }
 
-#section1 #mainheading {
+#section1 #headingdiv #mainheading {
   font-size: 15vw;
   text-transform: uppercase;
   font-family: futura;
@@ -125,7 +125,7 @@ body {
   letter-spacing: -8px;
 }
 
-#section1 #mainheadingdiv {
+#section1 #headingdiv #mainheadingdiv {
   display: flex;
   gap: 4rem;
 }
