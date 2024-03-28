@@ -283,6 +283,9 @@ body {
 #section2 #section2headingdiv {
   display: flex;
   justify-content: space-between;
+  padding-top: 5vw ;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 #section2 #section2headingdiv #section2heading {
@@ -440,6 +443,7 @@ body {
 #section4 #section4imagdiv {
   display: flex;
   gap: 2rem;
+  overflow: hidden;
 }
 
 #section4 #section4imagdiv img {
