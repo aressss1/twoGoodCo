@@ -249,6 +249,26 @@ body {
   position: absolute;
   z-index: 9;
   background-color: #edf3ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#section2 #productdiv .elem .dets #circle {
+  height: 8px;
+  width: 8px;
+}
+
+#section2 #productdiv .elem .dets p {
+  font-size: 14px;
+  font-family: Helvetica;
+  text-transform: uppercase;
+}
+
+#section2 #productdiv .elem .dets #bold {
+  font-weight: bold;
 }
 
 /* SECTION-3 */
