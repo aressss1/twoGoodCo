@@ -286,7 +286,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  padding: 4rem 1.75rem;
+  padding: 0 1.75rem;
   position: relative;
   z-index: -1;
 }
@@ -387,6 +387,42 @@ body {
   font-family: Helvetica ;
 }
 
+#section3 #section3headingdiv2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 26%;
+}
+
+#section3 #section3headingdiv2 h1 {
+  font-family: Futura;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#section3 #section3headingdiv2 p {
+  font-family: Helvetica;
+  letter-spacing: 0.01em;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+#section3 #section3headingdiv2 #section3headingbtn {
+  font-family: ABCSocialMono;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 12px;
+  width: max-content;
+}
+
+#section3 #section3headingdiv2 #section3headingbtn #section3headingbtnborder {
+  margin-top: 5px;
+  border-width: 1px;
+  border-style: outset;
+  border-color: black;
+}
 
 /* SECTION-4 */
 
@@ -396,43 +432,6 @@ body {
   gap: 8rem;
   position: relative;
   z-index: -1;
-}
-
-#section4 #section4headingdiv {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  width: 26%;
-}
-
-#section4 #section4headingdiv h1 {
-  font-family: Futura;
-  font-size: 1.5rem;
-  font-weight: normal;
-  text-transform: uppercase;
-}
-
-#section4 #section4headingdiv p {
-  font-family: Helvetica;
-  letter-spacing: 0.01em;
-  font-size: 16px;
-  line-height: 1.6em;
-}
-
-#section4 #section4headingdiv #section4headingbtn {
-  font-family: ABCSocialMono;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 12px;
-  width: max-content;
-}
-
-#section4 #section4headingdiv #section4headingbtn #section4headingbtnborder {
-  margin-top: 5px;
-  border-width: 1px;
-  border-style: outset;
-  border-color: black;
 }
 
 #section4 #section4imagdiv {
