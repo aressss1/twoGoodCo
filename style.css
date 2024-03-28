@@ -259,10 +259,12 @@ body {
 #section2 #productdiv .elem .dets #circle {
   height: 8px;
   width: 8px;
+  color: #000;
+  border-radius: 999999px;
 }
 
 #section2 #productdiv .elem .dets p {
-  font-size: 14px;
+  font-size: 13px;
   font-family: Helvetica;
   text-transform: uppercase;
 }
