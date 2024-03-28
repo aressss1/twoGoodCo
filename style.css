@@ -416,6 +416,112 @@ body {
 
 /* FOOTER */
 
+#footer {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 1.75rem;
+  gap: 4rem;
+}
+
+#footer #emailcatcher{
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer #emailcatcher #heading {
+  font-size: 40px;
+  font-family: Futura;
+  font-weight: normal;
+}
+
+#footer #emailcatcher #emailcatcherborder {
+  margin-top: 5px;
+  border-width: 1px;
+  border-style: outset;
+  border-color: black;
+  opacity: .8;
+}
+
+#footer #footerdiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer #footerdiv #footerleft{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-align: left;
+}
+
+#footer #footerdiv #footerleft #heading {
+  text-transform: uppercase;
+  opacity: .7;
+}
+
+#footer #footerdiv #footerleft #paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+#footer #footerdiv #footercenter svg {
+  height: 100%;
+  width: 100%;
+}
+
+#footer #footerdiv #footerright{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-align: right;
+}
+
+#footer #footerdiv #footerright #heading {
+  text-transform: uppercase;
+  opacity: .7;
+}
+
+#footer #footerdiv #footerright #paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+#footer #footerlast {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#footer #footerlast #link {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  opacity: .7;
+  font-size: 12px;
+  font-family: Helvetica ;
+  text-transform: uppercase;
+}
+
+#footer #footerlast #paragraph {
+  text-align: center;
+  font-family: Helvetica ;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+
+
+
 @media (max-width: 600px) {
   /* RESPONSIVE-NAVBAR */
 
