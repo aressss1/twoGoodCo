@@ -117,6 +117,10 @@ body {
   z-index: -1;
 }
 
+#section1 #headingdiv  {
+  background-color: #f7f7f7;
+}
+
 #section1 #headingdiv #mainheading {
   font-size: 15vw;
   text-transform: uppercase;
@@ -136,6 +140,7 @@ body {
   /* background-color: grey; */
   margin-top: 1vw;
   position: relative;
+  z-index: -2;
 }
 
 #image-container img {
