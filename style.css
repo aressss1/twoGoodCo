@@ -51,7 +51,7 @@ body {
 
 .counter {
   position: fixed;
-  left: -10px;
+  left: 0px;
   bottom: -23px;
   display: flex;
   height: 100px;
@@ -167,12 +167,13 @@ body {
 }
 
 #cursor {
-  height: 180px;
-  width: 180px;
-  background-color: rgba(224, 139, 189, 0.814);
+  height: 150px;
+  width: 150px;
+  background-color: gainsboro;
   border-radius: 50%;
   position: fixed;
   transform: translate(-50%, -50%) scale(0);
+  opacity: .5;
 }
 
 /* SECTION-1  */
