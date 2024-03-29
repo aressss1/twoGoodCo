@@ -181,7 +181,7 @@ function HeroAnimation() {
   gsap.from("#section1 #image-container", {
     scale: 0.9,
     opacity: 0,
-    delay: 9.5,
+    delay: 9.2,
     duration: 0.5,
   });
 }
