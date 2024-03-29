@@ -182,7 +182,7 @@ function HeroAnimation() {
   gsap.from("#section1 #headingdiv #mainheading", {
     y: 100,
     opacity: 0,
-    delay: 0.5,
+    delay: 8,
     duration: 0.9,
     stagger: 0.3,
   });
@@ -190,7 +190,7 @@ function HeroAnimation() {
   gsap.from("#section1 #image-container", {
     scale: 0.9,
     opacity: 0,
-    delay: 1.3,
+    delay: 9.5,
     duration: 0.5,
   });
 }
