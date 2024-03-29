@@ -105,9 +105,6 @@ function loadingAnimation() {
   });
 }
 
-loadingAnimation()
-
-
 function LocomotiveWithScrollTrigger() {
   gsap.registerPlugin(ScrollTrigger);
 
@@ -148,9 +145,6 @@ function LocomotiveWithScrollTrigger() {
   ScrollTrigger.refresh();
 }
 
-LocomotiveWithScrollTrigger();
-
-
 function NavbarAnimation() {
   gsap.to("#nav-part1 svg", {
     transform: "translateY(-100%)",
@@ -175,9 +169,6 @@ function NavbarAnimation() {
   });
 }
 
-NavbarAnimation();
-
-
 function HeroAnimation() {
   gsap.from("#section1 #headingdiv #mainheading", {
     y: 100,
@@ -194,9 +185,6 @@ function HeroAnimation() {
     duration: 0.5,
   });
 }
-
-HeroAnimation();
-
 
 function cursorHover() {
   document.addEventListener("mousemove", function (dets) {
@@ -219,5 +207,13 @@ function cursorHover() {
     });
   });
 }
+
+loadingAnimation()
+
+LocomotiveWithScrollTrigger();
+
+NavbarAnimation();
+
+HeroAnimation();
 
 cursorHover();
