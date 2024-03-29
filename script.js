@@ -82,15 +82,15 @@ function loadingAnimation() {
   );
 
   gsap.to(".loader", {
-    scale: 40,
+    scale: 45,
     duration: 1,
     delay: 7,
     ease: "power2.inOut",
   });
 
   gasp.to(".loader", {
-    rotate: 45,
-    y: 500,
+    rotate: 50,
+    y: 200,
     x: 2000,
     duration: 1,
     delay: 7,

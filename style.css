@@ -49,7 +49,7 @@ body {
 
 .counter {
   position: fixed;
-  left: -23px;
+  left: -20px;
   bottom: -23px;
   display: flex;
   height: 100px;
